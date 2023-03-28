@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:animations/pages/animation_opacity.dart';
+import 'pages/animation_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const OpacityAnimation(),
+      // home: const OpacityAnimation(),
+      home: const ContainerAnimated(),
     );
   }
 }
