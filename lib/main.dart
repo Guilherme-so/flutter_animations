@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/animation_container.dart';
+import 'pages/animation_crossfade.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const OpacityAnimation(),
-      home: const ContainerAnimated(),
+      // home: const ContainerAnimated(),
+      home: const CrossFadeAnimation(),
     );
   }
 }
