@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/animation_container.dart';
 import 'pages/animation_crossfade.dart';
+import 'pages/animation_positioned.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: const OpacityAnimation(),
       // home: const ContainerAnimated(),
-      home: const CrossFadeAnimation(),
+      // home: const CrossFadeAnimation(),
+      home: const PositionedAnimated(),
     );
   }
 }
